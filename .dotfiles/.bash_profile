@@ -1,1 +1,5 @@
-/home/adison/.dotfiles/.bash_profile
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc

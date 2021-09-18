@@ -1,1 +1,3 @@
-/home/adison/.dotfiles/.bash_logout
+#
+# ~/.bash_logout
+#
