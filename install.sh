@@ -12,3 +12,6 @@ cp -r img/Adison.jpg ~/Pictures/Others/
 
 # Create directory for Keepass database
 mkdir -p ~/Documents/KeepassXC/
+
+# Override ZorinGrey-Dark gnome shell theme - fix dock appearance
+sudo cp -r gnome-shell/gnome-shell.css /usr/share/themes/ZorinGrey-Dark/gnome-shell/
