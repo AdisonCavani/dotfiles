@@ -24,7 +24,7 @@ fi
 
 # Install base packages
 echo -e "${GREEN}Installing extra packages${NC}"
-paru -S gnome-terminal chrome-gnome-shell-git chromium discord_arch_electron etcher-bin firefox gdm-plymouth gimp github-desktop-bin grub-customizer gufw keepassxc memtest86-efi neovim nerd-fonts-cascadia-code ntfs-3g ocs-url oh-my-zsh-git plymouth-git qbittorrent reflector seahorse spotify spotify-adblock-git teams torbrowser-launcher ttf-ms-fonts vscodium-bin vscodium-bin-marketplace zoom zsh zsh-completions zorin-desktop-themes-git
+paru -S gnome-terminal chrome-gnome-shell chromium discord_arch_electron etcher-bin firefox gdm-plymouth gimp github-desktop-bin grub-customizer gufw keepassxc memtest86-efi neovim nerd-fonts-cascadia-code ntfs-3g ocs-url oh-my-zsh-git plymouth-git qbittorrent reflector seahorse spotify spotify-adblock-git teams torbrowser-launcher ttf-ms-fonts vscodium-bin vscodium-bin-marketplace zoom zsh zsh-completions zorin-desktop-themes-git
 
 # Load gnome-terminal profile
 echo -e "${GREEN}Loading gnome-terminal profile${NC}"
@@ -59,3 +59,11 @@ sudo cp -r etc/paru.conf /etc/
 # Create repos directory
 echo -e "${GREEN}Creating repos directory${NC}"
 mkdir -p ~/repos
+
+# Override nvim config
+echo -e "${GREEN}Overriding nvim config${NC}"
+sudo cp -r .config/nvim/ ~/.config/nvim
+
+# Remove unused packages
+echo -e "${GREEN}Removing unused packages${NC}"
+sudo pacman -Qtdq | sudo pacman -Rns -
