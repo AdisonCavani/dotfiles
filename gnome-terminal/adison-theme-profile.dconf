@@ -1,0 +1,17 @@
+[/]
+audible-bell=false
+background-color='rgb(32,32,32)'
+bold-color='#ABB2BF'
+bold-color-same-as-fg=true
+cursor-blink-mode='off'
+cursor-colors-set=false
+cursor-shape='ibeam'
+font='CaskaydiaCove Nerd Font Mono 12'
+foreground-color='rgb(212,212,212)'
+highlight-colors-set=false
+palette=['rgb(0,0,0)', 'rgb(205,49,49)', 'rgb(106,153,85)', 'rgb(206,145,120)', 'rgb(36,114,200)', 'rgb(197,134,192)', 'rgb(17,168,205)', 'rgb(229,229,229)', 'rgb(102,102,102)', 'rgb(241,76,76)', 'rgb(181,206,168)', 'rgb(220,220,170)', 'rgb(86,156,214)', 'rgb(218,173,214)', 'rgb(156,220,254)', 'rgb(229,229,229)']
+scrollbar-policy='always'
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+visible-name='Adison'
