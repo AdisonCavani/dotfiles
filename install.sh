@@ -6,25 +6,29 @@ BLUE='\033[0;34m'
 PURPLE='\033[0;35m'
 NC='\033[0m' # No Color
 
-# Install git and base-devel
-if ! [ -x "$(command -v git)" ]; then
-    echo -e "${GREEN}Installing git${NC}"
-    sudo pacman -S git
-    sudo pacman -S base-devel
-fi
+read -p "Install packages? [Y/n] " pkg
 
-# Install paru - AUR helper
-if ! [ -x "$(command -v paru)" ]; then
-    echo -e "${GREEN}Installing paru${NC}"
-    cd ~
-    git clone https://aur.archlinux.org/paru.git
-    cd paru
-    makepkg -si
-fi
+if [[ "$pkg" == "y" || "$pkg" == "Y" ]]; then
+    # Install git and base-devel
+    if ! [ -x "$(command -v git)" ]; then
+        echo -e "${GREEN}Installing git${NC}"
+        sudo pacman -S git
+        sudo pacman -S base-devel
+    fi
 
-# Install base packages
-echo -e "${GREEN}Installing extra packages${NC}"
-paru -S gnome-terminal chrome-gnome-shell chromium discord_arch_electron etcher-bin firefox gdm-plymouth gimp github-desktop-bin grub-customizer gufw keepassxc memtest86-efi neovim nerd-fonts-cascadia-code ntfs-3g ocs-url oh-my-zsh-git plymouth-git qbittorrent reflector seahorse spotify spotify-adblock-git teams torbrowser-launcher ttf-ms-fonts vscodium-bin vscodium-bin-marketplace zoom zsh zsh-completions zorin-desktop-themes-git
+    # Install paru - AUR helper
+    if ! [ -x "$(command -v paru)" ]; then
+        echo -e "${GREEN}Installing paru${NC}"
+        cd ~
+        git clone https://aur.archlinux.org/paru.git
+        cd paru
+        makepkg -si
+    fi
+
+    # Install base packages
+    echo -e "${GREEN}Installing extra packages${NC}"
+    paru -S gnome-terminal chrome-gnome-shell chromium discord_arch_electron etcher-bin firefox gdm-plymouth gimp github-desktop-bin grub-customizer gufw keepassxc memtest86-efi neovim nerd-fonts-cascadia-code ntfs-3g ocs-url oh-my-zsh-git plymouth-git qbittorrent reflector seahorse spotify spotify-adblock-git teams torbrowser-launcher ttf-ms-fonts vscodium-bin vscodium-bin-marketplace zoom zsh zsh-completions zorin-desktop-themes-git
+fi
 
 # Load gnome-terminal profile
 echo -e "${GREEN}Loading gnome-terminal profile${NC}"
