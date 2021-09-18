@@ -1,0 +1,1 @@
+/home/adison/.dotfiles/.bash_history
