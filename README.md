@@ -1,4 +1,10 @@
 # Dotfiles
+
+## Contents
+- [Gnome-shell extensions](#gnome-shell-extensions)
+    * [Community](#community)
+    * [Default](#default)
+- [Coc extensions](#coc-extensions)
 ## Gnome-shell extensions
 
 ### Community:
