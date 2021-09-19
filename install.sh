@@ -27,7 +27,7 @@ if [[ "$pkg" == "y" || "$pkg" == "Y" ]]; then
 
     # Install base packages
     echo -e "${GREEN}Installing extra packages${NC}"
-    paru -S gnome-terminal chrome-gnome-shell chromium discord_arch_electron etcher-bin firefox gdm-plymouth gimp github-desktop-bin grub-customizer gufw keepassxc memtest86-efi neovim nerd-fonts-cascadia-code ntfs-3g ocs-url oh-my-zsh-git plymouth-git qbittorrent reflector seahorse spotify spotify-adblock-git teams torbrowser-launcher ttf-ms-fonts vscodium-bin vscodium-bin-marketplace zoom zsh zsh-completions zorin-desktop-themes-git
+    paru -S gnome-terminal chrome-gnome-shell chromium discord_arch_electron etcher-bin firefox fastfetch gdm-plymouth gimp github-desktop-bin grub-customizer gufw keepassxc memtest86-efi neovim nerd-fonts-cascadia-code ntfs-3g ocs-url oh-my-zsh-git plymouth-git qbittorrent reflector seahorse spotify spotify-adblock-git teams torbrowser-launcher ttf-ms-fonts vscodium-bin vscodium-bin-marketplace zoom zsh zsh-completions zorin-desktop-themes-git
 fi
 
 # Load gnome-terminal profile
