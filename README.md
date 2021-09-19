@@ -1,7 +1,7 @@
 # Dotfiles
 ## Gnome-shell extensions
 
-Community:
+### Community:
 - Arch Linux Updates Indicator
 - Bitcoin Markets
 - Dynamic Panel Transparency
@@ -11,7 +11,7 @@ Community:
 - Tray Icons: Reloaded
 - Window Is Ready - Notification Remover
 
-Default:
+### Default:
 - User Themes
 - Workspace indicator
 
