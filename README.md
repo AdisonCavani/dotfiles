@@ -6,6 +6,12 @@
     * [Default](#default)
 - [Coc extensions](#coc-extensions)
 ## Gnome-shell extensions
+Install ``chrome-gnome-shell`` extension:
+```
+paru -S chrome-gnome-shell
+```
+Install Firefox [extension](https://addons.mozilla.org/pl/firefox/addon/gnome-shell-integration)<br>
+One-click installation using [GNOME Shell Extensions](https://extensions.gnome.org)
 
 ### Community:
 - Arch Linux Updates Indicator
