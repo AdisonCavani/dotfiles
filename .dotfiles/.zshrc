@@ -88,6 +88,7 @@ alias .5='cd ../../../../..'
 alias cat='bat'
 alias vi='nvim'
 alias vim='nvim'
+alias ff='fastfetch'
 
 alias zshsrc='source .zshrc'
 alias zshrc='nvim ~/.zshrc'
@@ -97,5 +98,7 @@ alias vimplug='nvim ~/.config/nvim/vim-plug/plugins.vim'
 alias viminit='nvim ~/.config/nvim/init.vim'
 alias cocsettings='nvim ~/.config/nvim/coc-settings.json'
 alias coccfg='nvim ~/.config/nvim/plug-config/coc.vim'
+
+alias rm-orp='sudo pacman -Qtdq | sudo pacman -Rns -'
 
 alias shutdown='shutdown now'

@@ -71,3 +71,14 @@ sudo cp -r .config/nvim/ ~/.config/nvim
 # Remove unused packages
 echo -e "${GREEN}Removing unused packages${NC}"
 sudo pacman -Qtdq | sudo pacman -Rns -
+
+if ![ -x "$(command -v reflector)"]; then
+    echo -e "${GREEN}Installing reflector${NC}"
+    sudo pacman -S reflector
+fi
+
+# Override reflector config file
+sudo cp -r etc/xdg/reflector/reflector.conf /etc/xdg/reflector
+
+# Enable reflector service
+sudo systemctl enable reflector.service
