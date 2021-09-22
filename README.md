@@ -8,7 +8,7 @@
 ## Gnome-shell extensions
 Install ``chrome-gnome-shell`` extension:
 ```
-paru -S chrome-gnome-shell
+paru -S chrome-gnome-shell-git
 ```
 Install Firefox [extension](https://addons.mozilla.org/pl/firefox/addon/gnome-shell-integration)<br>
 One-click installation using [GNOME Shell Extensions](https://extensions.gnome.org)
