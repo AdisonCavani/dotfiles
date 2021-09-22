@@ -14,14 +14,14 @@ Install Firefox [extension](https://addons.mozilla.org/pl/firefox/addon/gnome-sh
 One-click installation using [GNOME Shell Extensions](https://extensions.gnome.org)
 
 ### Community:
-- Arch Linux Updates Indicator
-- Bitcoin Markets
-- Dynamic Panel Transparency
-- Just Perfection
-- OpenWeather
-- Sound Input & Output Device Chooser
-- Tray Icons: Reloaded
-- Window Is Ready - Notification Remover
+- [Arch Linux Updates Indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
+- [Bitcoin Markets](https://extensions.gnome.org/extension/648/bitcoin-markets/)
+- [Dynamic Panel Transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
+- [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
+- [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
+- [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+- [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
+- [Window Is Ready - Notification Remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
 
 ### Default:
 - User Themes
