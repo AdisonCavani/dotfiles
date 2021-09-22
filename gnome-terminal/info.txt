@@ -1,0 +1,13 @@
+Profile name: Adison
+
+Theme variant: Dark
+Font: CaskaydiaCove Nerd Font Mono
+Cursor shape: I-Beam
+Cursor blinking: Disabled
+
+Default colors:
+#E5E5E5 #202020
+
+Palette:
+#000000	#CD3131	#069955	#CE9178	#2472C8	#C586C0	#2AA1B3	#E5E5E5 
+#666666	#F14C4C	#B5CEA8	#DCDCAA	#569CD6	#DAADD6	#9CDCFE	#E5E5E5
