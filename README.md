@@ -30,7 +30,7 @@ One-click installation using [GNOME Shell Extensions](https://extensions.gnome.o
 ## Coc extensions
 Install in nvim:
 ```cs
-CocInstall coc-clangd coc-css coc-cssmodules coc-emmet coc-explorer coc-git coc-highlight coc-html coc-html-css-support coc-intelephense coc-json coc-omnisharp coc-pyright coc-sh coc-snippets coc-sql coc-xml
+:CocInstall coc-clangd coc-css coc-cssmodules coc-emmet coc-explorer coc-git coc-highlight coc-html coc-html-css-support @yaegassy/coc-intelephense coc-json coc-omnisharp coc-pyright coc-sh coc-snippets coc-sql coc-xml
 ```
 
 - [coc-clangd](https://github.com/clangd/coc-clangd)
