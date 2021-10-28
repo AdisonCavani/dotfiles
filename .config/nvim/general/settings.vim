@@ -3,7 +3,7 @@ let g:mapleader = "\<Space>"
 
 start                                   " Set default mode to INSERT
 syntax enable                           " Enables syntax highlighing
-set guicursor=a:ver25                   " Set cursor as I-Beam
+"set guicursor=a:ver25                   " Set cursor as I-Beam
 set shortmess=I                         " Disable intro message
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
@@ -39,3 +39,5 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 "set autochdir                           " Your working directory will always be the same as your working directory
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+
+autocmd VimLeave * set guicursor=a:ver25
